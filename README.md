@@ -1,8 +1,7 @@
 # Celebrity Face Recognition with Flask
 
 This project implements a celebrity face recognition web app.  
-The dataset is from Hugging Face and it contains roughly 16k pictures from around 1000 celebrities.
-
+The dataset is from Hugging Face and it contains roughly 16k pictures from around 1000 celebrities. \
 I started with **hand-crafted features (wavelet transform) + an MLP model**, but results were poor.  
 I then tried **pretrained face embeddings** (InceptionResnetV1 from `facenet-pytorch`) and trained a **Logistic Regression classifier** on top — which produced much stronger results.  
 
